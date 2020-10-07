@@ -45,7 +45,7 @@ export class DataServiceService {
         })
 
         // console.log(raw);
-        return Object.values(raw);
+        return <GlobalDataSummary[]>Object.values(raw);
       })
     )
   }
